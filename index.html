@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pre-Certificacion</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul class="navbar-ul">
+                <li class="navbar-li"><a href="#" class="navbar-a">Inicio de Sesión</a></li>
+                <li class="navbar-li"><a href="#" class="navbar-a">Registro</a></li>
+            </ul>
+            <ul class="navbar-ul">
+                <li class="navbar-li2"><a href="#" class="navbar-a2"><img src="img/mapa.png" alt="Icono-navbar-Mapa" class="navbar-icon"></a></li>
+                <li class="navbar-li2"><a href="#" class="navbar-a2"><img src="img/perfil.png" alt="Icono-navbar-Perfil" class="navbar-icon"></a></li>
+                <li class="navbar-li2"><a href="#" class="navbar-a2"><img src="img/mensajes.png" alt="Icono-navbar-Mensajes" class="navbar-icon"></a></li>
+            </ul>
+        </nav>
+        <h1 class="header-h1">
+            <img src="img/rayo.png" alt="Icono-header-Rayo" class="header-img">
+            <span id="title">Batalla Musical</span>
+            <img src="img/rayo.png" alt="Icono-header-Rayo" class="header-img">
+        </h1>
+        <ul class="header-ul">
+            <li class="header-li"><a href="#" class="header-a">Géneros</a></li>
+            <li class="header-li"><a href="#" class="header-a">Batallas Pasadas</a></li>
+            <li class="header-li"><a href="#" class="header-a">Eventos</a></li>
+            <li class="header-li"><a href="#" class="header-a">Patrocinadores</a></li>
+            <li class="header-li"><a href="#" class="header-a">Inscripciones</a></li>
+        </ul>
+    </header>     
+    <main class="main">
+        <section class="section1">
+            <h2 class="section1-h2">Filtros</h2>
+            <div class="section1-group">
+                <h3 class="section1-h3"><span>Género Musical</span><img src="img/selector.png" alt="Icon-Selector"></h3>
+                <div class="section1-input">
+                    <label class="section1-label"><input type="checkbox" name="" id="filtro-checkbox-1" class="filtro-checkbox">Clásica</label>
+                    <label class="section1-label"><input type="checkbox" name="" id="filtro-checkbox-2" class="filtro-checkbox">Rock</label>
+                    <label class="section1-label"><input type="checkbox" name="" id="filtro-checkbox-3" class="filtro-checkbox">Jazz</label>
+                    <label class="section1-label"><input type="checkbox" name="" id="filtro-checkbox-4" class="filtro-checkbox">Pop</label>
+                </div>
+            </div>
+            <div class="section1-group">
+                <h3 class="section1-h3"><span>Época</span><img src="img/selector.png" alt="Icon-Selector"></h3>
+                <div class="section1-input">
+                    <label class="section1-label"><input type="checkbox" name="" id="filtro-checkbox-1" class="filtro-checkbox">Años 80s</label>
+                    <label class="section1-label"><input type="checkbox" name="" id="filtro-checkbox-2" class="filtro-checkbox">Años 90s</label>
+                    <label class="section1-label"><input type="checkbox" name="" id="filtro-checkbox-3" class="filtro-checkbox">Años 2000</label>
+                </div>
+            </div>
+            <button class="section1-btn" id="section1-btn">Filtrar</button>
+        </section>
+        <section class="section2">
+            <h2 class="section2-h2">Votaciones</h2>
+            <div class="section2-group">
+                <div class="section2-card">
+                    <figure class="section2-figure">
+                        <img src="img/banda-1.jpg" alt="Banda-1" class="section2-img">
+                    </figure>
+                    <figcaption class="section2-figcaption">
+                        <h4 class="section2-h4">Strawberry Fields Forever</h4>
+                        <h3 class="section2-count">157</h3>
+                        <button class="section2-btn">Votar</button>
+                    </figcaption>
+                </div>
+                <div class="section2-card">
+                    <figure class="section2-figure">
+                        <img src="img/banda-2.jpg" alt="Banda-1" class="section2-img">
+                    </figure>
+                    <figcaption class="section2-figcaption">
+                        <h4 class="section2-h4">Las Piedras Rodantes</h4>
+                        <h3 class="section2-count">108</h3>
+                        <button class="section2-btn">Votar</button>
+                    </figcaption>
+                </div>
+            </div>
+        </section>
+    </main>   
+</body>
+<script src="script.js"></script>
+</html>
